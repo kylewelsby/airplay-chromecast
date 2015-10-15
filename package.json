@@ -1,0 +1,30 @@
+{
+  "name": "itunes-chromecast",
+  "version": "1.0.0",
+  "description": "Enable streaming of iTunes to a Chromecast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "itunes",
+    "chromecast",
+    "airplay",
+    "streaming",
+    "audio",
+    "mac",
+    "osx"
+  ],
+  "author": "Kyle Welsby <kyle@mekyle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "castv2-client": "^1.1.0",
+    "express": "^4.13.3",
+    "ip": "^1.0.1",
+    "lame": "^1.2.3",
+    "macaddress": "^0.2.8",
+    "mdns": "^2.2.10",
+    "nodetunes": "git@github.com:microadam/nodetunes.git#master",
+    "rsvp": "^3.1.0"
+  }
+}
